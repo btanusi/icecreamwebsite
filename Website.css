@@ -1,0 +1,342 @@
+h1{
+  font-family: Century Gothic, sans-serif;
+  font-weight:bold;
+  font-size:60px;
+  color:white;
+  text-align: center;
+  background-color: black;
+
+  margin: 30px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+p{
+  color: black;
+  font: italic 20px/30px Georgia;
+    background-color: white;
+
+}
+
+img{
+  height: 250px;
+}
+
+
+.container{
+
+  /* How pronounced should the 3D effects be */
+  perspective: 800px;
+  -webkit-perspective: 800px;
+
+  background: white;
+  width:400px;
+  height:260px;
+  margin:0 auto;
+  border-radius:6px;
+  position:relative;
+  
+}
+
+.diddyriese-front,
+.diddyriese-back{
+
+  /* Enable 3D transforms */
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
+  /* We are using two separate divs for the front and back of the
+     phone. This will hide the divs when they are flipped, so that the
+     opposite side can be seen:  */
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  width:400px;
+  height:250px;
+
+  position:absolute;
+  top:66%;
+  left:34%;
+  margin:-166px 0 0 -100px;
+
+  background:url(http://img05.deviantart.net/1de6/i/2017/042/7/d/diddyriese_by_btanusi-dayq248.jpg) no-repeat left center;
+
+  /* Animate the transitions */
+  transition:0.8s;
+}
+
+.diddyriese-back{
+
+  /* The back side is flipped 180 deg by default */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+
+  background-position:right center;
+}
+
+.container:hover .diddyriese-front{
+  /* When the container is hovered, flip the front side and hide it .. */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+}
+
+.container:hover .diddyriese-back{
+  /* .. at the same time flip the back side into visibility */
+  transform:rotateY(360deg);
+  -webkit-transform:rotateY(360deg);
+}
+
+.container2{
+
+  /* How pronounced should the 3D effects be */
+  perspective: 800px;
+  -webkit-perspective: 800px;
+
+  background: white;
+  width:339px;
+  height:260px;
+  margin:0 auto;
+  border-radius:6px;
+  position:relative;
+}
+
+.saffron-front,
+.saffron-back{
+
+  /* Enable 3D transforms */
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
+  /* We are using two separate divs for the front and back of the
+     phone. This will hide the divs when they are flipped, so that the
+     opposite side can be seen:  */
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  width:340px;
+  height:250px;
+
+  position:absolute;
+  top:66%;
+  left:34%;
+  margin:-166px 0 0 -100px;
+
+  background:url(http://img12.deviantart.net/78b1/i/2017/042/2/6/saffron6_by_btanusi-dayq967.png) no-repeat left center;
+
+  /* Animate the transitions */
+  transition:0.8s;
+}
+
+.saffron-back{
+
+  /* The back side is flipped 180 deg by default */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+
+  background-position:right center;
+}
+
+.container2:hover .saffron-front{
+  /* When the container is hovered, flip the front side and hide it .. */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+}
+
+.container2:hover .saffron-back{
+  /* .. at the same time flip the back side into visibility */
+  transform:rotateY(360deg);
+  -webkit-transform:rotateY(360deg);
+}
+
+.container3{
+
+  /* How pronounced should the 3D effects be */
+  perspective: 800px;
+  -webkit-perspective: 800px;
+
+  background: white;
+  width:400px;
+  height:260px;
+  margin:0 auto;
+  border-radius:6px;
+  position:relative;
+}
+
+.carvel-front,
+.carvel-back{
+
+  /* Enable 3D transforms */
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
+  /* We are using two separate divs for the front and back of the
+     phone. This will hide the divs when they are flipped, so that the
+     opposite side can be seen:  */
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  width:400px;
+  height:250px;
+
+  position:absolute;
+  top:66%;
+  left:34%;
+  margin:-166px 0 0 -100px;
+
+  background:url(http://img10.deviantart.net/461b/i/2017/042/7/d/carvel_by_btanusi-dayqch7.png) no-repeat left center;
+
+  /* Animate the transitions */
+  transition:0.8s;
+}
+
+.carvel-back{
+
+  /* The back side is flipped 180 deg by default */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+
+  background-position:right center;
+}
+.container3:hover .carvel-front{
+  /* When the container is hovered, flip the front side and hide it .. */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+}
+
+.container3:hover .carvel-back{
+  /* .. at the same time flip the back side into visibility */
+  transform:rotateY(360deg);
+  -webkit-transform:rotateY(360deg);
+}
+
+.container4{
+
+  /* How pronounced should the 3D effects be */
+  perspective: 800px;
+  -webkit-perspective: 800px;
+
+  background: white;
+  width:370px;
+  height:260px;
+  margin:0 auto;
+  border-radius:6px;
+  position:relative;
+}
+
+.blockhead-front,
+.blockhead-back{
+
+  /* Enable 3D transforms */
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
+  /* We are using two separate divs for the front and back of the
+     phone. This will hide the divs when they are flipped, so that the
+     opposite side can be seen:  */
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  width:370px;
+  height:241px;
+
+  position:absolute;
+  top:66%;
+  left:12%;
+  margin:-166px 0 0 -100px;
+
+  background:url(http://img14.deviantart.net/2489/i/2017/042/7/5/blockhead3_by_btanusi-dayqhi7.png?1) no-repeat left center;
+
+  /* Animate the transitions */
+  transition:0.8s;
+}
+
+.blockhead-back{
+
+  /* The back side is flipped 180 deg by default */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+
+  background-position:right center;
+}
+.container4:hover .blockhead-front{
+  /* When the container is hovered, flip the front side and hide it .. */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+}
+
+.container4:hover .blockhead-back{
+  /* .. at the same time flip the back side into visibility */
+  transform:rotateY(360deg);
+  -webkit-transform:rotateY(360deg);
+}
+
+.container5{
+
+  /* How pronounced should the 3D effects be */
+  perspective: 800px;
+  -webkit-perspective: 800px;
+
+  background: white;
+  width:400px;
+  height:250px;
+  margin:0 auto;
+  border-radius:6px;
+  position:relative;
+}
+
+.lab-front,
+.lab-back{
+
+  /* Enable 3D transforms */
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+
+  /* We are using two separate divs for the front and back of the
+     phone. This will hide the divs when they are flipped, so that the
+     opposite side can be seen:  */
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  width:400px;
+  height:250px;
+
+  position:absolute;
+  top:66%;
+  left:12%;
+  margin:-166px 0 0 -100px;
+
+  background:url(http://img10.deviantart.net/151a/i/2017/042/c/0/lab1_by_btanusi-dayqk65.png?1) no-repeat left center;
+
+  /* Animate the transitions */
+  transition:0.8s;
+}
+
+.lab-back{
+
+  /* The back side is flipped 180 deg by default */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+
+  background-position:right center;
+}
+.container5:hover .lab-front{
+  /* When the container is hovered, flip the front side and hide it .. */
+  transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+}
+
+.container5:hover .lab-back{
+  /* .. at the same time flip the back side into visibility */
+  transform:rotateY(360deg);
+  -webkit-transform:rotateY(360deg);
+}
+
+
+
+
+
